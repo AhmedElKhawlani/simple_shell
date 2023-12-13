@@ -4,6 +4,7 @@
  * execute_command - uses execve to execute a command in a child process
  * @splitted_command: array of strings that contains the words of the command
  * @av: array of strings that represents the arguments
+ * Return: Exit status of the child process (Execution)
 */
 
 int execute_command(char **splitted_command, char **av)
